@@ -30,14 +30,14 @@ Dataset: The data required to train and test the neural network.
 
 ## How to Run the Project
 
-1.First clone the repository by open your command prompt in Windows or Mac/Linux.
-Use the git clone command to download the project files to your computer.
-2.A folder will be created on your system with all the project files.
-3.Then Open Jupyter Notebook and follow the steps below:
+* Step 1: First clone the repository by open your command prompt in Windows or Mac/Linux.
+* Step 2: Use the git clone command to download the project files to your computer.
+* Step 3: A folder will be created on your system with all the project files.
+* Step 4: Then Open Jupyter Notebook and follow the steps below:
   a. Launch Jupyter Notebook via Anaconda Navigator or search for it directly.
   b. Navigate to the folder where you saved the project files.
   c. Open the 100931720-DATA1200-Assignment4.ipynb file to start running the code.
-4. After that Run the Code by following the steps below:
+* Step 5: After that Run the Code by following the steps below:
   a. Click on a code cell in the notebook.
   b. Press Shift + Enter or click the Run button in the toolbar.
   c. Repeat this for all cells in order.
@@ -49,12 +49,13 @@ To install the essential libraries, use pip.
 
 ## Neural Network Classifier:
 The model use MLPClassifier with the following settings:
-hidden_layer_sizes=(5, 4, 5): This defines the network's layers.
-Activation='relu': Speeds up training by avoiding the vanishing gradient issue.
-solver='adam': Automatically changes the learning rate with minimum adjustment.
-max_iter=10000: Sets the model to run for up to 10,000 iterations before stopping if it converges.
-Random_state=100: Controls the production of random numbers, ensuring consistent outcomes.
-The model's performance is assessed using:
+* hidden_layer_sizes=(5, 4, 5): This defines the network's layers.
+* Activation='relu': Speeds up training by avoiding the vanishing gradient issue.
+* solver='adam': Automatically changes the learning rate with minimum adjustment.
+* max_iter=10000: Sets the model to run for up to 10,000 iterations before stopping if it converges.
+* Random_state=100: Controls the production of random numbers, ensuring consistent outcomes.
+
+**The model's performance is assessed using:**
 
 ## Confusion Matrix: 
 compares expected and actual values.
@@ -69,11 +70,11 @@ Use DecisionTreeClassifier with random_state=100 to achieve consistent results. 
 
 Community contributions are highly valued and play a key role in improving this project. Follow these straightforward steps to get started:
 
-1. Fork the Repository: Create your own copy of the project to work on.
-2. Create a New Branch: Start a new branch for your changes to keep the main branch stable.
-3. Make Changes: Edit the code, documentation, or other project elements to add value.
-4. Test Your Work: Ensure your updates are functional and error-free.
-5. Submit a Pull Request (PR): Once satisfied, create a pull request with a clear explanation of your contributions.
+1. Create your own copy of the project to work on.
+2. Start a new branch for your changes to keep the main branch stable.
+3. Edit the code, documentation, or other project elements to add value.
+4. Ensure your updates are functional and error-free.
+5. Once satisfied, create a pull request with a clear explanation of your contributions.
 
 Your feedback can help develop and enhance the project. 
 
@@ -91,4 +92,4 @@ MIT License is authorised to this project - [LICENSE.md](LICENSE.md)
 
 # Acknowledgment
 
-* Prof.Rejoy James, DATA 1202-03 Data Analysis Tools Analytics
+* **Prof.Rejoy James**, DATA 1202-03 Data Analysis Tools Analytics
